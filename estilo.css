@@ -1,0 +1,116 @@
+/*ESTILO PARA CUERPO DE LA PAGINA HTML EN COLOR LETRAS Y ALINIACION*/
+body{
+    background: rgb(1, 211, 200);
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contenedor{
+    width: 90%;
+    background: white;
+    margin: 10px;
+    box-shadow: 0 0 20px rgb(140, 149, 189);
+    display: grid;
+}
+
+/*ESTILO PARA TABLA DE ESTUDIOS Y SUS COLUMNAS*/
+.tabla_tituloE{
+    grid-column: 1;
+    background: rgba(40,65,120, 1);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    
+}
+/*TABLA DE ESTILOS Y COLUMNAS */
+.tabla_titulo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: rgba(40,65,120, 1);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+}
+/*ESTILOS PARA IMAGEN*/
+img{
+    border-radius: 20%;
+    border: 2px solid azure;
+    box-shadow: 8px 16px 32px 0px rgba(0, 0, 0, 0.75);
+    height: 350px;
+    margin-top: 5px;
+    width: 310px;
+}
+/*ESTILO PARA TITULO PRINCIPAL DE LA PAGINA*/
+h1{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+/*DATOS PERSONALES, EXPERIENCIA LABORAL Y CAPACITACIONES*/
+.tabla_subtitulos, .tabla_datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tabla_subtitulos{
+    font-weight: bold;
+    color: rgb(0, 255, 234);
+    font-size: 1.5em;
+}
+
+.tabla_datos{
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+/*DATOS DE ESTUDIOS REALIZADOS*/
+.tabla_subtitulosE, .tabla_datosE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tabla_subtitulosE{
+    font-weight: bold;
+    color: rgb(0, 255, 234);
+    font-size: 1.5em;
+}
+
+.tabla_datosE{
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+/*DATOS DE REFERENCIA */
+.tabla_subtitulosR, .tabla_datosR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tabla_subtitulosR{
+    font-weight: bold;
+    color: rgb(0, 255, 234);
+    font-size: 1.5em;
+}
+
+.tabla_datosR{
+    padding: 5px;
+    font-size: 1.2em;
+}
+.tabla_REFERENCIA{
+    font-weight: bold;
+    color: rgb(168, 133, 57);
+    padding: 15px;
+    font-size: 1.5em;
+}
